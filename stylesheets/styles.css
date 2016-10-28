@@ -1,3 +1,6 @@
+/********************************************************************************************************/
+/* following are system define started*/
+/********************************************************************************************************/
 @font-face {
   font-family: 'Noto Sans';
   font-weight: 400;
@@ -322,3 +325,24 @@ footer {
     color:#444;
   }
 }
+/********************************************************************************************************/
+/* following are system define ended*/
+/********************************************************************************************************/
+.command-line {
+  background-color:#444;
+  color:#fff;border-radius:3px;
+  border:none;position:relative;
+}
+
+.command-line em {
+  color:#f9fe64;
+}
+
+.command-line span.comment {
+  color:#ccc;
+}
+
+.command-line span.output {
+  color:#63E463;
+}
+
